@@ -1,0 +1,12 @@
+USE lxd;
+CREATE TABLE EPRSHEET(
+eprs char(8) PRIMARY KEY,
+empno char(8),
+itemno char(8));
+
+INSERT INTO EPRSHEET VALUES
+('1','20100101','1901'),
+('2','20190202','1901'),
+('3','20100201','1902'),
+('4','20190102','1902'),
+('NULL','NULL','NULL');

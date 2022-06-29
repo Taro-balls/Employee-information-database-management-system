@@ -1,0 +1,16 @@
+USE lxd;
+CREATE TABLE WAGESC(
+cashno char(8) PRIMARY KEY,
+empno char(8),
+# FOREING KEY (empno) REFERENCES deptpos(deptID),
+basepy float,
+fiof float,
+perbonu float,
+subs float,
+cback float);
+
+INSERT INTO WAGESC VALUES
+('20190001','20100101','1000',1000,1000,1000,1000),
+('20190002','20100201','1000',1000,1000,1000,1000),
+('20190003','20190102','500',500,500,500,500),
+('20190004','20190202','500',500,500,500,500);
